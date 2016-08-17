@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Personal-WebSite</title>
+
+	<link rel="stylesheet" type="text/css" href="css/jq22-demo.css">
+	<link rel="stylesheet" type="text/css" href="css/BasicStyle.css">
+
+
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+	<style>
+		body{margin:0; padding:0; overflow-y: hidden; color:#fff;}
+
+		#radioWrap{
+			width:20px;
+			height:180px;
+			position:absolute;
+			right:5%;
+			top:50%;
+			margin-top: -90px;
+		}
+
+		#radio{width:100%; height:100%; overflow: hidden;}
+
+		#radio li{
+			width:20px;
+			height:20px;
+			background-color: rgba(255,255,255, 0.5);
+			text-indent: -10000px;
+			border-radius: 50%;
+			margin-top: 30px;
+			cursor:pointer;}
+		#radio li:first-child{margin-top:0;}
+		
+		#radioOn{
+			width:20px;
+			height:20px;
+			margin-bottom:30px;
+			position: absolute;
+			top:0; left:0;
+			background-color: #fff;
+			border-radius: 50%;
+		}
+
+	</style>
+</head>
+<body>
+
+	<!-- nav -->
+	<div class="nav fill-width" >
+		<div class="nav-logo"></div>
+		<div class="nav-ul">
+			<ul>
+				<a href="#"><li class="text-center">首页</li></a>
+				<a href="#"><li class="text-center">技能</li></a>
+				<a href="#"><li class="text-center">作品展示</li></a>
+				<a href="#"><li class="text-center">关于我</li></a>
+			</ul>
+		</div>
+	</div>
+
+	<!-- section -->
+	<div id="view">
+		<div id="frame">
+
+			<!-- section1 -->
+			<div class="op-section first"><br><br><br><br><br><br><br><br><br><br>
+				<p class="section1-p">Welcome!</p>
+				<p class="section1-p">This is <span class="section1-s">Mr.Moon</span>'s website.</p>
+			</div>
+
+			<!-- section2 -->
+			<div class="op-section second">
+				<div class="section2 fill-height">
+
+					<div class="section2-division fill-height">
+						<div class="section2-box-icon">
+							<img src="img/img-section2/icon-11.gif" class="section2-icon">
+						</div><br>
+						<h3 class="text-center">视 觉 设 计</h3><br>
+						<p>视觉传达设计是指利用视觉符号来传递各种信息的设计。简称为视觉设计。</p>
+					</div>
+
+					<div class="section2-division fill-height">
+						<div class="section2-box-icon">
+							<img src="img/img-section2/icon-22.gif" class="section2-icon">
+						</div><br>
+						<h3 class="text-center">图 像 摄 影</h3><br>
+						<p>对生活细节的抓取与对图像细节的感知,将日常生活中稍纵即逝的平凡事物转化为不朽的视觉图像。</p>
+					</div>
+
+					<div class="section2-division fill-height">
+						<div class="section2-box-icon">
+							<img src="img/img-section2/icon-33.gif" class="section2-icon">
+						</div><br>
+						<h3 class="text-center">平 面 设 计</h3><br>
+						<p>平面设计是沟通传播、风格化和通过文字和图像解决问题的艺术。通过字体编排、版面技术来使产品设计达到预期效果。</p>
+					</div>
+
+					<div class="section2-division fill-height">
+						<div class="section2-box-icon">
+							<img src="img/img-section2/icon-44.gif" class="section2-icon">
+						</div><br>
+						<h3 class="text-center">Web 前 端</h3><br>
+						<p>掌握HTML、CSS、JavaScript等各种Web技术实现客户端产品的开发与实现</p>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- section3 -->
+			<div class="op-section third">
+
+				<div class="section3-navtabs">
+					<ul class="nav-tabs">
+						<a href="#photograph" data-toggle="tab"><li>摄影</li></a>
+						<a href="#web-page" data-toggle="tab"><li>网页</li></a>
+						<a href="#icon" data-toggle="tab"><li>图标</li></a>
+					</ul>
+				</div>
+
+				<div class="section3-tabcontent ">
+					<div class="tab-content">
+
+						<!-- photograph -->
+						<div class="tab-pane fade in active" id="photograph">
+							<div class="section3-tabcontent-photo fill-height">
+								<img src="img/img-section3/photo/p11.jpg" class="section3-photo">
+							</div>
+							<div class="section3-tabcontent-photo fill-height">
+								<img src="img/img-section3/photo/p22.jpg" class="section3-photo">
+							</div>
+							<div class="section3-tabcontent-photo fill-height">
+								<img src="img/img-section3/photo/p33.jpg" class="section3-photo">
+							</div>
+							<div class="section3-tabcontent-photo fill-height">
+								<img src="img/img-section3/photo/p44.jpg" class="section3-photo">
+							</div>
+						</div>
+
+						<!-- web-page -->
+						<div class="tab-pane fade" id="web-page"><br><br><br>
+							<div class="section3-tabcontent-web color-1">
+								<figure class="imghvr-fade">
+									<img src="img/img-section3/web-page/p1.png" alt="example-image" class="section3-web">
+									<figcaption>
+										<h3 class="text-center">耐克</h3>
+									</figcaption>
+									<a href="#"></a>
+								</figure>
+							</div>
+							<div class="section3-tabcontent-web color-1">
+								<figure class="imghvr-fade">
+									<img src="img/img-section3/web-page/p1.png" alt="example-image" class="section3-web">
+									<figcaption>
+										<h3 class="text-center">耐克</h3>
+									</figcaption>
+									<a href="#"></a>
+								</figure>
+							</div>
+							<div class="section3-tabcontent-web color-1">
+								<figure class="imghvr-fade">
+									<img src="img/img-section3/web-page/p1.png" alt="example-image" class="section3-web">
+									<figcaption>
+										<h3 class="text-center">耐克</h3>
+									</figcaption>
+									<a href="#"></a>
+								</figure>
+							</div>
+							<div class="section3-tabcontent-web color-1">
+								<figure class="imghvr-fade">
+									<img src="img/img-section3/web-page/p1.png" alt="example-image" class="section3-web">
+									<figcaption>
+										<h3 class="text-center">耐克</h3>
+									</figcaption>
+									<a href="#"></a>
+								</figure>
+							</div>
+							<div class="section3-tabcontent-web color-1">
+								<figure class="imghvr-fade">
+									<img src="img/img-section3/web-page/p1.png" alt="example-image" class="section3-web">
+									<figcaption>
+										<h3 class="text-center">耐克</h3>
+									</figcaption>
+									<a href="#"></a>
+								</figure>
+							</div>
+							<div class="section3-tabcontent-web color-1">
+								<figure class="imghvr-fade">
+									<img src="img/img-section3/web-page/p1.png" alt="example-image" class="section3-web">
+									<figcaption>
+										<h3 class="text-center">耐克</h3>
+									</figcaption>
+									<a href="#"></a>
+								</figure>
+							</div>
+							<div class="section3-tabcontent-web color-1">
+								<figure class="imghvr-fade">
+									<img src="img/img-section3/web-page/p1.png" alt="example-image" class="section3-web">
+									<figcaption>
+										<h3 class="text-center">耐克</h3>
+									</figcaption>
+									<a href="#"></a>
+								</figure>
+							</div>
+							<div class="section3-tabcontent-web color-1">
+								<figure class="imghvr-fade">
+									<img src="img/img-section3/web-page/p1.png" alt="example-image" class="section3-web">
+									<figcaption>
+										<h3 class="text-center">耐克</h3>
+									</figcaption>
+									<a href="#"></a>
+								</figure>
+							</div>
+						</div>
+
+						<!-- icon -->
+						<div class="tab-pane fade" id="icon">
+							<div class="section3-tabcontent-icon fill-height">
+								<img src="img/img-section3/icon/p1.png" class="section3-icon">
+							</div>
+							<div class="section3-tabcontent-icon fill-height">
+								<img src="img/img-section3/icon/p2.png" class="section3-icon">
+							</div>
+							<div class="section3-tabcontent-icon fill-height color-3">
+								<img src="img/img-section3/icon/p3.png" class="section3-icon">
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<!-- section4 -->
+			<div class="op-section fourth">
+				<div class="section4-left">
+					<br><h2>基本信息</h2><br><br>
+					<p>姓  名：胡妍垚</p><br>
+					<p>性  别：男</p><br>
+					<p>年  龄：21</p><br>
+					<p>学  校：重庆理工大学</p>
+				</div>
+
+				<div class="section4-right">
+					<br><h2>联系方式</h2><br><br>
+					<p>电话：18581248127</p><br>
+					<p>Q  Q：787481067</p><br>
+					<p>微信：hyy-shiren</p><br>
+					<p>邮箱：787481067@qq.com</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- radio -->
+	<div id="radioWrap">
+		<ul id="radio">
+			<li>section1</li>
+			<li>section2</li>
+			<li>section3</li>
+			<li>section4</li>
+		</ul>
+		<span id="radioOn"></span>
+	</div>
+	
+	<script src="js/onepage.js"></script>
+	<script>
+		$(document).ready(function(){
+			startOnePage({
+				frame: "#view",
+				container: "#frame",
+				sections: ".op-section",
+				radio: "#radio",
+				radioOn: "#radioOn",
+				speed: 1000,
+				easing: "swing"
+			});
+		});
+	</script>
+</body>
+</html>
